@@ -52,13 +52,13 @@ There were 4 points in this analysis: Retirement Titles, Unique Titles, Retiring
 
 
 ## Summary
-Based on the above analysis, there are 90,398 individuals eligible for retirement. AS the employees retire, the greatest impact will be in the Senior Engineer and Senior Staff areas, which will have 29,414 and 28,254 voids respectively. With only 1,549 mentorship eligible employees, based on the current qualifications, there are not enough to mentoer the next generation of employees.
+Based on the above analysis, there are 90,398 individuals eligible for retirement. As the employees retire, the greatest impact will be in the Senior Engineer and Senior Staff areas, which will have 29,414 and 28,254 voids respectively. With only 1,549 mentorship eligible employees, based on the current qualifications, there are not enough to mentoer the next generation of employees.
 
 To help recover from this "Silver Tsunami":
 - I would recommend expanding the requirements for mentorship to a longer range of dates (1960-1965), this would give a much larger base to mentor from (93,756 mentors). This would need to be revisited annually to assure the company maintains enough in the mentorship pool.
 
 <img src= Resources\expanded_mentorship_code.png>
 
-- With the expanded mentorship, they will need to look into the qualifications for the titles and adjust, where necessary, to keep the ratios where they need to be. Based on the new dates, 
+- With the expanded mentorship, they will need to look into the qualifications for the titles and adjust, where necessary, to keep the ratios where they need to be. Based on the new dates, the Senior Engineer title count will be significanty lower.
 
 <img src= Resources\new_COUNT.png>
