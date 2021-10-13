@@ -30,7 +30,7 @@ There were 4 points in this analysis: Retirement Titles, Unique Titles, Retiring
 
 - Retiring Titles
 
-  - Once the titles were filtered, we created another query, using the "COUNT" statment,  to determine the number of retiring employees by department
+  - Once the titles were filtered, we created another query, using the "COUNT" statement,  to determine the number of retiring employees by department
 
 
 
@@ -41,7 +41,7 @@ There were 4 points in this analysis: Retirement Titles, Unique Titles, Retiring
 
 - Mentorship Eligibility
 
-  - As the final piece, we joined the 3 tables, employee, titles, and dept_emp, and then filtered the new table by their birth date (if during the year 1965) and if they are still employeed (the "to_date" = '9999-01-01')
+  - As the final piece, we joined the 3 tables (employee, titles, and dept_emp), then filtered the new table by their birth date (if during the year 1965) and if they are still employeed (the "to_date" = '9999-01-01')
 
 
 <img src= Resources\mentorship_eligibility.png>
@@ -52,7 +52,7 @@ There were 4 points in this analysis: Retirement Titles, Unique Titles, Retiring
 
 
 ## Summary
-Based on the above analysis, there are 90,398 individuals eligible for retirement. As the employees retire, the greatest impact will be in the Senior Engineer and Senior Staff areas, which will have 29,414 and 28,254 voids respectively. With only 1,549 mentorship eligible employees, based on the current qualifications, there are not enough to mentoer the next generation of employees.
+Based on the above analysis, there are 90,398 individuals eligible for retirement. As the employees retire, the greatest impact will be in the Senior Engineer and Senior Staff areas, which will have 29,414 and 28,254 voids respectively. With only 1,549 mentorship eligible employees, based on the current qualifications, there are not enough to mentor the next generation of employees.
 
 To help recover from this "Silver Tsunami":
 - I would recommend expanding the requirements for mentorship to a longer range of dates (1960-1965), this would give a much larger base to mentor from (93,756 mentors). This would need to be revisited annually to assure the company maintains enough in the mentorship pool.
