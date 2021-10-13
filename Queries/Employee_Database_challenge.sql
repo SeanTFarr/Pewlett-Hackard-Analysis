@@ -49,3 +49,28 @@ FROM employees as e
 WHERE (birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 AND (de.to_date = '9999-01-01')
 ORDER BY emp_no;
+
+-- created query to join tables to check expanding mentorship years
+SELECT DISTINCT ON (e.emp_no)e.emp_no,
+	e.first_name,
+	e.last_name,
+	e.birth_date,
+	de.from_date,
+	de.to_date,
+	t.title	
+INTO test
+FROM employees as e
+	INNER JOIN dept_employee as de
+	ON e.emp_no = de.emp_no
+	INNER JOIN titles as t
+	ON e.emp_no = t.emp_no
+WHERE (birth_date BETWEEN '1960-01-01' AND '1965-12-31')
+AND (de.to_date = '9999-01-01')
+ORDER BY emp_no;
+
+-- Couting new mentors by title
+SELECT * FROM test;
+SELECT COUNT(emp_no), title
+FROM test
+GROUP BY title
+ORDER BY count DESC;
