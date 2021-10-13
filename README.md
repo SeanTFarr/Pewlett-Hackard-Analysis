@@ -59,6 +59,6 @@ To help recover from this "Silver Tsunami":
 
 <img src= Resources\expanded_mentorship_code.png>
 
-- With the expanded mentorship, they will need to look into the qualifications for the titles and adjust, where necessary, to keep the ratios where they need to be. Based on the new dates, the Senior Engineer title count will be significanty lower.
+- With the expanded mentorship, they will need to look into the qualifications for the titles and adjust, where necessary, to keep the ratios where they need to be. For example, based on the new dates, the Senior Engineer title count will be significanty lower.
 
 <img src= Resources\new_COUNT.png>
